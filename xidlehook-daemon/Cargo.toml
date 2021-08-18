@@ -8,7 +8,7 @@ version = "0.10.0"
 default-run = "xidlehook"
 
 repository = "https://gitlab.com/jD91mZM2/xidlehook"
-readme = "../README.md"
+readme = "README.md"
 keywords = ["xorg", "x", "timer"]
 categories = ["date-and-time", "command-line-utilities"]
 

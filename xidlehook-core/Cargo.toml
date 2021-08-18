@@ -39,6 +39,6 @@ extended-description = """\
 xidlehook is a general-purpose replacement for xautolock.
 this is the core library
 """
-depends = "$auto, ,libxcb1, libpulse0"
+depends = "$auto, libxcb1, libpulse0"
 section = "utils"
 priority = "optional"

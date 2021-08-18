@@ -31,3 +31,15 @@ env_logger = "0.7.1"
 [features]
 default = ["pulse"]
 pulse = ["libpulse-binding"]
+
+[package.metadata.deb]
+name = "xidlehook-core"
+maintainer = "jD91mZM2 <me@krake.one>"
+extended-description = """\
+xidlehook is a general-purpose replacement for xautolock.
+this is the core library
+"""
+license-file = ["LICENSE", "MIT"]
+depends = "$auto, ,libxcb1, libpulse0"
+section = "utils"
+priority = "optional"

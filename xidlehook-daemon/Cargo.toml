@@ -27,3 +27,15 @@ tokio = { version = "1.3.0", features = ["io-util", "macros", "signal", "sync", 
 [features]
 default = ["pulse"]
 pulse = ["xidlehook-core/pulse"]
+
+[package.metadata.deb]
+name = "xidlehook-daemon"
+maintainer = "jD91mZM2 <me@krake.one>"
+extended-description = """\
+xidlehook is a general-purpose replacement for xautolock.
+this is the daemon
+"""
+license-file = ["LICENSE", "MIT"]
+depends = "$auto, ,libxcb1, libpulse0"
+section = "utils"
+priority = "optional"

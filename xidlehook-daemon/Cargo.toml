@@ -35,7 +35,6 @@ extended-description = """\
 xidlehook is a general-purpose replacement for xautolock.
 this is the daemon
 """
-license-file = ["LICENSE", "MIT"]
 depends = "$auto, ,libxcb1, libpulse0"
 section = "utils"
 priority = "optional"
